@@ -1,0 +1,12 @@
+<h2>My Work Samples</h2>
+<p>These are examples of fast-turnaround pages I can build for restaurants, realtors, and service businesses.</p>
+
+<h3>Restaurant Ordering Page</h3>
+<a href="https://your-luigi-link.netlify.app" target="_blank">View sample →</a>
+<img src="luigis_pizza_sample.png" width="600"/>
+
+<h3>Real Estate Listing Page</h3>
+<a href="https://your-realtor-link.netlify.app" target="_blank">View sample →</a>
+
+<h3>Contractor Pay-Now Page</h3>
+<a href="https://your-electrician-link.netlify.app" target="_blank">View sample →</a>

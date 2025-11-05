@@ -9,5 +9,5 @@ I build fast, simple web systems that help small businesses make money automatic
 - **Auto Email Reply Script** – AI-powered follow-up tool for small teams.
 
 ### Contact
-Email: [your email here]  
+Email: olomooluwaferanmi@gmail.com  
 Portfolio: [your GitHub link]  

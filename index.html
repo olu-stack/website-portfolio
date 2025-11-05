@@ -3,42 +3,118 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Olu Stack | Portfolio</title>
+  <title>Feranmi Olomo | Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Poppins", sans-serif;
       margin: 0;
-      background: #f5f5f5;
+      padding: 0;
+      background: #f9f9f9;
       color: #222;
-      text-align: center;
-      padding: 50px;
     }
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 0.5em;
-    }
-    p {
-      max-width: 600px;
-      margin: 10px auto;
-      line-height: 1.6;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
+    header {
       background: #007bff;
-      color: #fff;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-decoration: none;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
     }
-    .btn:hover {
-      background: #0056b3;
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: #e0e0e0;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h2 {
+      color: #007bff;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 260px;
+      padding: 20px;
+      text-align: left;
+      transition: transform 0.2s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .project-card h3 {
+      margin-top: 0;
+      color: #007bff;
+    }
+    .project-card p {
+      color: #555;
+      font-size: 0.95em;
+    }
+    footer {
+      background: #007bff;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+      margin-top: 40px;
+    }
+    footer a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <h1>👋 Hi, I'm Oluwaferanmi!</h1>
-  <p>Welcome to my portfolio. I build web apps and automation tools that help businesses work smarter.</p>
-  <a href="https://github.com/olu-stack" class="btn">View My Projects</a>
+
+  <header>
+    <h1>Feranmi Olomo</h1>
+    <p>Web Developer • Automation Engineer • Problem Solver</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a creative developer who builds clean, automated solutions for the web.
+      I specialize in making simple tools that help businesses work smarter using
+      web technologies and automation scripts.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Online Order Page</h3>
+        <p>A fast, mobile-ready order page for restaurants — set up in under 4 hours.</p>
+      </div>
+      <div class="project-card">
+        <h3>Service Booking Template</h3>
+        <p>Automated booking + payment page for small business owners.</p>
+      </div>
+      <div class="project-card">
+        <h3>AI Email Responder</h3>
+        <p>A smart follow-up tool that replies to client emails automatically.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>📧 Contact: <a href="mailto:feranmiolomo@gmail.com">feranmiolomo@gmail.com</a></p>
+    <p><a href="https://github.com/olu-stack" target="_blank">View More on GitHub</a></p>
+  </footer>
+
 </body>
 </html>

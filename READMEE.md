@@ -10,4 +10,5 @@ I build fast, simple web systems that help small businesses make money automatic
 
 ### Contact
 Email: olomooluwaferanmi@gmail.com  
+phone: (240)-853-5096
 Portfolio: [your GitHub link]  
